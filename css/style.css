@@ -1,0 +1,85 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+.section1{
+    padding:50px 50px;
+    background-color: #4718FE;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    display: inline;
+    margin:0px 10px;
+}
+
+.search-icon{
+    width: 20px;
+}
+
+.quote{
+    margin-top:150px;
+    margin-bottom:150px;
+}
+
+.tech-img{
+    position: absolute;
+    right:0px;
+    top:100px;
+    z-index: 1;
+}
+
+.company-names{
+    width:100%;
+    position: absolute;
+    bottom: -60px;
+    left:0px;
+    background-color: #ffffff;
+}
+
+.company-names h4{
+    display: inline;
+    margin:0px 30px;
+}
+
+.section2{
+    margin:120px 50px;
+}
+
+.api-cats{
+    margin:10px 0px;
+}
+
+.cat{
+    display: inline-block;
+    width: 200px;
+    padding:50px 15px;
+    margin-right:10px;
+}
+
+.cat.active{
+    box-shadow: 2px 2px 4px 4px #1f1f1f1f;
+    border-radius: 10px;
+}
+
+.cat-image{
+    margin:5px 0px;
+}
+
+.cat-desc{
+    margin:5px 0px;
+}
+
+.cat-heading{
+    font-size: 25px;
+    height: 70px;
+}
