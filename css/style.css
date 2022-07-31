@@ -83,3 +83,114 @@
     font-size: 25px;
     height: 70px;
 }
+
+.section3{
+    margin:120px 50px;
+}
+
+.section3-header h2{
+    display: inline;
+}
+
+.section3-header div{
+    display: inline;
+}
+
+.blogs{
+    margin-right: 10px;
+}
+
+.blog{
+    display: inline-block;
+    width: 45%;
+    box-shadow: 2px 2px 4px 4px #1f1f1f1f;
+    border-radius: 50px 10px 10px 10px;
+    margin-right: 20px;
+}
+
+.blog-img{
+    float: left;
+}
+
+.blog-content{
+    display: inline-block;
+    width: 260px;
+    margin-top:40px;
+    margin-left:40px;
+}
+
+.blog-date{
+    margin:10px 0px;
+}
+
+.blog-desc{
+    margin:10px 0px;
+}
+
+.blog-author{
+    text-align: center;
+}
+
+.section4{
+    display: flex;
+    background-color: #E9EDFF;
+    justify-content: space-between;
+}
+
+.section4-content{
+    margin:20px 200px 0px 50px;
+}
+
+.section4-content h2{
+    font-size: 40px;
+    width: 200px;
+}
+
+.section4-content p{
+    margin:10px 0px;
+}
+
+.section4-content h4{
+    margin:20px 0px;
+}
+
+.section5{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.download-now{
+    font-size: 40px;
+}
+
+.email-input{
+    position: relative;
+}
+
+.download-btn{
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+
+.section6{
+    background-color: #4718FE;
+}
+
+.footer{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 100px;
+}
+
+.footer-item{
+    display: inline;
+}
+
+.footer-nav1, .footer-nav2{
+    margin:10px 0px;
+}
