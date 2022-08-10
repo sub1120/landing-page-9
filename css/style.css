@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
 * {
     padding:0px;
     margin:0px;
+    font-family: 'Poppins', 'cursive';
+}
+
+.main{
+    background-color: #F8F8FA;
 }
 
 .section1{
@@ -15,6 +23,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    color:#ffffff;
 }
 
 .nav-item{
@@ -22,20 +31,43 @@
     margin:0px 10px;
 }
 
+.nav-item.active{
+    background-color: #fff;
+    padding:10px;
+    border-radius: 5px;
+    color:#4718FE;
+}
+
 .search-icon{
     width: 20px;
 }
 
 .quote{
+    display: inline-block;
     margin-top:150px;
-    margin-bottom:150px;
+    margin-bottom:80px;
+    color:#ffffff;
+    width: 50%;
+}
+
+.quote h2{
+    font-size: 35px;
+}
+
+.quote h4{
+    padding:20px 0px;
+    font-size: 20px;
 }
 
 .tech-img{
     position: absolute;
     right:0px;
-    top:100px;
+    top:120px;
     z-index: 1;
+}
+
+.tech-img img{
+    width: 610px;
 }
 
 .company-names{
@@ -48,7 +80,15 @@
 
 .company-names h4{
     display: inline;
-    margin:0px 30px;
+    margin:0px 40px;
+    font-family: 'Righteous', 'cursive';
+    font-size: 25px;
+}
+
+.api-heading, .section3-heading{
+    font-size: 40px;
+    font-weight: 700;
+    padding:20px 0px;
 }
 
 .section2{
@@ -69,6 +109,7 @@
 .cat.active{
     box-shadow: 2px 2px 4px 4px #1f1f1f1f;
     border-radius: 10px;
+    background-color: #fff;
 }
 
 .cat-image{
@@ -82,34 +123,43 @@
 .cat-heading{
     font-size: 25px;
     height: 70px;
+    font-weight: unset;
 }
 
 .section3{
     margin:120px 50px;
 }
 
-.section3-header h2{
+.section3-header{
+    padding: 20px 0px;
+}
+
+.section3-heading{
     display: inline;
 }
 
-.section3-header div{
-    display: inline;
+.see-article-btn{
+    float: right;
+    color:#5B33FC;
+    font-weight: 700;
 }
 
 .blogs{
-    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .blog{
     display: inline-block;
-    width: 45%;
+    width: 48%;
     box-shadow: 2px 2px 4px 4px #1f1f1f1f;
     border-radius: 50px 10px 10px 10px;
-    margin-right: 20px;
+    background-color: #fff;
 }
 
 .blog-img{
     float: left;
+    width: 300px;
 }
 
 .blog-content{
@@ -123,8 +173,14 @@
     margin:10px 0px;
 }
 
+.blog-heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .blog-desc{
     margin:10px 0px;
+    font-size: 12px;
 }
 
 .blog-author{
@@ -154,6 +210,10 @@
     margin:20px 0px;
 }
 
+.search-img img{
+    height: 100%;
+}
+
 .section5{
     height: 200px;
     display: flex;
@@ -162,7 +222,11 @@
 }
 
 .download-now{
-    font-size: 40px;
+    font-size: 30px;
+}
+
+.download-now span{
+    font-weight: 700;
 }
 
 .email-input{
@@ -185,12 +249,48 @@
     justify-content: space-between;
     align-items: center;
     margin:0px 100px;
+    color:#ffffff;
 }
 
 .footer-item{
     display: inline;
+    margin:0px 5px;
 }
 
 .footer-nav1, .footer-nav2{
     margin:10px 0px;
+}
+
+.contact-btn button{
+    padding:10px 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: #5A31FC;
+    color:#ffffff;
+}
+
+.social-btns-grp{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.social-btns-grp img{
+    margin:0px 10px;
+}
+
+#email{
+    padding:12px 30px;
+    width: 500px;
+    border:none;
+    border-radius: 20px;
+    background-color: #E9EDFF;
+}
+
+.download-btn button{
+    padding:10px 30px;
+    border:none;
+    border-radius: 20px;
+    background-color: #5A31FC;
+    margin:2px 0px;
+    color:#ffffff;
 }

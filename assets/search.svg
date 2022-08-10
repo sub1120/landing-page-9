@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="10mm"
-   height="10mm"
-   viewBox="0 0 10 10"
+   width="9mm"
+   height="9mm"
+   viewBox="0 0 9 9"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
@@ -42,12 +42,16 @@
     <circle
        style="fill:none;stroke:#ffffff;stroke-width:0.809968;stroke-dasharray:none;stroke-opacity:1"
        id="path111"
-       cx="3.6873283"
-       cy="3.3614979"
-       r="2.5374606" />
+       cx="3.4108655"
+       cy="3.2390027"
+       r="2.5374606"
+       inkscape:transform-center-x="1.1038666"
+       inkscape:transform-center-y="-1.2439096" />
     <path
        style="fill:#000000;stroke:#ffffff;stroke-width:0.809968;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
-       d="m 5.3512576,5.390056 3.138038,3.1380387"
-       id="path270" />
+       d="m 5.0747948,5.2675608 3.138038,3.1380387"
+       id="path270"
+       inkscape:transform-center-x="-2.1290817"
+       inkscape:transform-center-y="2.3536677" />
   </g>
 </svg>
