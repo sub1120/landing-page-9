@@ -4,6 +4,7 @@
 * {
     padding:0px;
     margin:0px;
+    outline: 0px;
     font-family: 'Poppins', 'cursive';
 }
 
@@ -12,13 +13,13 @@
 }
 
 .section1{
-    padding:50px 50px;
     background-color: #4718FE;
     position: relative;
-    margin-bottom: 120px;
+    height: 570px;
 }
 
 .header{
+    padding:50px 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,12 +43,13 @@
     width: 20px;
 }
 
+.section1-bottom{
+    padding-left:50px;
+}
+
 .quote{
-    display: inline-block;
-    margin-top:150px;
-    margin-bottom:80px;
+    padding-top:10%;
     color:#ffffff;
-    width: 50%;
 }
 
 .quote h2{
@@ -60,32 +62,24 @@
 }
 
 .tech-img{
-    position: absolute;
-    right:0px;
-    top:120px;
-    z-index: 1;
-}
-
-.tech-img img{
-    width: 610px;
+    float: right;
 }
 
 .company-names{
-    width:100%;
-    position: absolute;
-    bottom: -60px;
-    left:0px;
-    background-color: #ffffff;
+    height: 50px;
+    background-color: #F8F8FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 15px;
 }
 
 .company-names h4{
-    display: inline;
-    margin:0px 40px;
     font-family: 'Righteous', 'cursive';
-    font-size: 25px;
+    font-size: 20px;
 }
 
-.api-heading, .section3-heading{
+.api-heading{
     font-size: 40px;
     font-weight: 700;
     padding:20px 0px;
@@ -97,13 +91,12 @@
 
 .api-cats{
     margin:10px 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .cat{
-    display: inline-block;
-    width: 200px;
-    padding:50px 15px;
-    margin-right:10px;
+    padding:20px;
 }
 
 .cat.active{
@@ -116,18 +109,23 @@
     margin:5px 0px;
 }
 
-.cat-desc{
-    margin:5px 0px;
+.cat-para{
+    margin:20px 0px;
 }
 
 .cat-heading{
     font-size: 25px;
-    height: 70px;
     font-weight: unset;
 }
 
 .section3{
     margin:120px 50px;
+}
+
+.section3-heading{
+    font-size: 40px;
+    font-weight: 700;
+    padding:20px 0px;
 }
 
 .section3-header{
@@ -150,23 +148,25 @@
 }
 
 .blog{
-    display: inline-block;
-    width: 48%;
+    width: 45%;
     box-shadow: 2px 2px 4px 4px #1f1f1f1f;
     border-radius: 50px 10px 10px 10px;
     background-color: #fff;
+    display: flow-root;
 }
 
 .blog-img{
     float: left;
-    width: 300px;
+    margin-right: 20px;
+}
+
+.blog-img img{
+    width: 250px;
 }
 
 .blog-content{
-    display: inline-block;
-    width: 260px;
-    margin-top:40px;
-    margin-left:40px;
+    padding-top:40px;
+    padding-right: 20px;
 }
 
 .blog-date{
@@ -184,17 +184,14 @@
 }
 
 .blog-author{
-    text-align: center;
+    text-align: left;
 }
 
 .section4{
-    display: flex;
+    display: flow-root;
     background-color: #E9EDFF;
-    justify-content: space-between;
-}
-
-.section4-content{
-    margin:20px 200px 0px 50px;
+    height: fit-content;
+    padding-left:20px;
 }
 
 .section4-content h2{
@@ -207,11 +204,15 @@
 }
 
 .section4-content h4{
-    margin:20px 0px;
+    margin:10px 0px;
+}
+
+.search-img {
+    float: right;
 }
 
 .search-img img{
-    height: 100%;
+    width: 500px;
 }
 
 .section5{
@@ -229,14 +230,8 @@
     font-weight: 700;
 }
 
-.email-input{
-    position: relative;
-}
-
 .download-btn{
-    position: absolute;
-    right: 0px;
-    top:0px;
+    float: right;
 }
 
 .section6{
@@ -278,12 +273,16 @@
     margin:0px 10px;
 }
 
-#email{
-    padding:12px 30px;
+.email-input{
     width: 500px;
-    border:none;
     border-radius: 20px;
     background-color: #E9EDFF;
+}
+
+#email{
+    padding:12px 20px;
+    border:none;
+    background: transparent;
 }
 
 .download-btn button{
@@ -293,4 +292,193 @@
     background-color: #5A31FC;
     margin:2px 0px;
     color:#ffffff;
+}
+
+@media (max-width:1200px){
+    .section1{
+        background-color: #4718FE;
+        position: relative;
+        height: 480px;
+    }
+    
+    .tech-img img{
+        width: 450px;
+    }
+
+    .quote{
+        padding-top: 5%;
+    }
+
+    .quote h2{
+        font-size: 30px;
+    }
+    
+    .quote h4{
+        font-size: 15px;
+    }
+
+    .company-names h4{
+        font-size: 18px;
+    }
+
+    .cat{
+        padding:10px 10px;
+    }
+
+    .cat-heading{
+        font-size: 20px;
+    }
+
+    .cat-para{
+        font-size: 13px;
+    }
+
+    .blog-img{
+        display: none;
+    }
+
+    .blog{
+        display: block;
+    }
+    
+    .blog-content{
+        padding:20px;
+    }
+}
+
+
+@media (max-width:900px){
+
+    .header{
+        padding:20px 20px;
+    }
+
+    .tech-img{
+        display: none;
+    }
+
+    .logo img{
+        width: 100px;
+    }
+
+    .nav-item{
+        display: none;
+    }
+
+    .nav-item.active{
+        display: block;
+        font-size: 15px;
+    }
+
+    .section1{
+        height:300px;
+    }
+
+    .section1-bottom{
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    .company-names{
+        justify-content: space-around;
+    }
+
+    .quote h2{
+        font-size: 22px;
+    }
+    
+    .quote h4{
+        font-size: 12px;
+    }
+
+    .company-names h4{
+        font-size: 15px;
+    }
+
+    .section2, .section3{
+        margin:20px 20px;
+    }
+
+    .api-heading{
+        font-size: 25px;
+    }
+
+    .api-cats{
+        flex-direction: column;
+    }
+
+    .cat-para{
+        margin:10px 0px;
+    }
+
+    .cat-image{
+        float: left;
+        margin-right:10px;
+    }
+
+    .blogs{
+        flex-direction: column;
+    }
+
+    .blog{
+        width: unset;
+        margin:10px 0px;
+    }
+
+    .section3-heading{
+        font-size: 25px;
+    }
+
+    .search-img{
+        display: none;
+    }
+
+    .section4-content h2{
+        font-size: 30px;
+    }
+    
+    .section4-content p{
+        font-size: 15px;
+    }
+    
+    .section4-content h4{
+        font-size: 15px;
+    }
+
+    .section5{
+        flex-direction: column;
+        height: 150px;
+    }
+
+    .email-input{
+        width: 380px;
+    }
+
+    #email{
+        width: 200px;
+    }
+
+    .footer{
+        flex-direction: column;
+        height: unset;
+        padding:20px 0px;
+        text-align: center;
+        margin:0px 20px;
+    }
+
+    .footer-right{
+        margin-top:20px;
+    }
+
+    .social-btns-grp{
+        justify-content: center;
+    }
+
+    .footer-logo img{
+        width: 100px;
+    }
+
+    .download-now span{
+        font-size: 25px;
+    }
 }
