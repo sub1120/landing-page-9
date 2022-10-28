@@ -1,4 +1,6 @@
-# Landing Page Project #9
+# FSJS Course | HTML & CSS Project #9
+
+# Developer Landingpage : [Deployed Link](https://tiny-rugelach-5fc0ed.netlify.app/)
 ![Screenshot 2022-08-19 at 07-59-12 Developer Landingpage](https://user-images.githubusercontent.com/43786036/185529811-e85043c3-5e40-4d7f-89c9-eaa907618790.png)
 
 ## Highlights
